@@ -1,0 +1,9 @@
+
+1. Prompt user for year
+  a. Validate that year is > 0, otherwise print error message
+2. Prompt user for day of the year (out of 365 or 366)
+  a. Validate that day of the year is > 0, otherwise print error message
+  b. Validate that the day of the year doesn't exceed the days in the year,
+      depending if it's a leap year or not based on the first prompt.
+3. Calculate the month based on the given year and day of year
+4. Print the result date
